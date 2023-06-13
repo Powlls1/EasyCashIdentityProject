@@ -9,9 +9,9 @@ namespace EasyCashIdentityProject.DtoLayer.Dtos.AppUserDtos
 {
     public class AppUserRegisterDto
     {
-        [Required(ErrorMessage ="Ad alanı zorunludur")]
-        [Display(Name ="İsim")]
-        [MaxLength(30,ErrorMessage ="Karakter sınırı 30'dur.")]
+        //[Required(ErrorMessage ="Ad alanı zorunludur")]
+        //[Display(Name ="İsim")]
+        //[MaxLength(30,ErrorMessage ="Karakter sınırı 30'dur.")]
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
